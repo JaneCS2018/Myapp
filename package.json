@@ -2,7 +2,7 @@
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JaneCS2018/myapp",
+  "homepage": "https://janecs2018.github.io/myapp",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
