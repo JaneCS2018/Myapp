@@ -1,0 +1,53 @@
+.Org_btns_2{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translatex(-50%);
+    cursor: default;
+}
+
+.data{
+    width: 73%;
+
+}
+
+.Games{
+    font-size: 2.5em;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+   
+}
+
+.More{
+    right:0;
+    bottom: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+@media (max-width: 414px) {
+    .Games{
+        font-size: 2em;
+        border-bottom: 1px solid black;
+        font-weight: 500;
+    }
+    .data{
+        width: 100%;
+    }
+    .More{
+  
+        font-size: 0.7em;
+        font-weight: 300;
+    }
+    .Org_btns_2{
+        width: 350px;
+        position: absolute;
+        left: 50%;
+        top: 1%;
+        transform: translatex(-50%);
+        cursor: default;
+        font-size: 0.8em;
+        line-height: 3;
+    }
+}

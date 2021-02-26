@@ -1,0 +1,10 @@
+.game_arr{
+    width: 80%;
+}
+
+
+@media (max-width: 414px) {
+    .game_arr{
+        width: 100%;
+    }
+}

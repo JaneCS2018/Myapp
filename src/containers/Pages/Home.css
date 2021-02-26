@@ -1,0 +1,92 @@
+.right_buttons{
+    position: absolute;
+    top:10px;
+    right: 5vw;
+    display: flex;
+}
+.Org_btns{
+   display: flex;
+   height: 40px;
+   min-width: 170px;
+   background: #e69967;
+   text-align: center;
+   color: white;
+   line-height: 2;
+   font-size: 1.2em;
+   font-weight: bold;
+   cursor: pointer;
+}
+.Org_btns_t{
+    margin-right: 2vw;;
+}
+.Std_name{
+    padding-left: 25px;
+}
+
+
+.content{
+    background: #C9D8BC;
+}
+.content_body{
+    width: 60%;
+    margin: auto;
+}
+
+.text_1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-top:10vh;
+}
+.text_2{
+    font-size: 2em;
+}
+
+.Grade_buttons{
+    background: #F1F7EC;
+    padding-bottom: 2vh;
+
+}
+
+@media (max-width: 1500px) {
+    img{
+        width: 350px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .Org_btns{
+      
+        height: 40px;
+        width: 100px;
+        line-height: 2;
+        font-size: 1.2em;
+    
+     }
+     .right_buttons{
+        right: 3vw;
+    }
+    .Org_btns_t{
+        margin-right: 3vw;;
+    }
+
+    .content_body{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .text_1{
+        font-size: 3em;
+        font-weight: bolder;
+        line-height: 1.2;
+        margin-top:5vh;
+    }
+    .text_2{
+        font-size: 1.5em;
+    }
+    img{
+        width: 250px;
+        margin: auto;
+    }
+}
