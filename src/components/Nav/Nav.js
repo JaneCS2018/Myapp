@@ -26,7 +26,7 @@ const Nav = (props) => (
                                 id="addInput"
                                 placeholder="Search Beyond Academics, Inc."
                                 />
-                                <div className="search-click p-2">
+                                <div className="search-click p-2 px-2">
                                     <FontAwesomeIcon icon={faSearch} style={{fontSize:27, color: 'white'}} />
                                 </div>
                             </form>
